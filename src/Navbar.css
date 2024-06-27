@@ -25,11 +25,15 @@
 
 .navbar .navbar-item {
 	color: white; /* White color for links */
+	/* add padding to each side */
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .navbar .navbar-brand .navbar-item {
 	display: inline-block;
-	margin-right: 1rem; /* Add some spacing between items */
+	margin-right: 0rem; /* Add some spacing between items */
+	margin-left: -1rem;
 }
 
 .navbar .navbar-item:hover {
@@ -41,6 +45,8 @@
 	align-items: center; /* Center items vertically */
 }
 
-.navbar .navbar-item {
-	color: white; /* White color for links */
+.navbar .navbar-item .Link {
+	color: white;
+	margin-right: 1rem;
+	margin-left: 1rem;
 }

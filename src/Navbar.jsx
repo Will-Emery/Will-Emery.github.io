@@ -21,19 +21,19 @@ function Navigationbar() {
 						<img src="/assets/linkedin.png" alt="My LinkedIn" />
 					</a>
 					<h1 className="title mt-2 mb-1">William Emery</h1>
-					<a href="#" className="navbar-burger" data-target="nav-links">
+					{/* <a href="#" className="navbar-burger" data-target="nav-links">
 						<span></span>
 						<span></span>
 						<span></span>
-					</a>
+					</a> */}
 				</Navbar.Brand>
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				{/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
 				<Navbar.Collapse id="basic-navbar-nav" className="navbar-menu">
 					<Nav className="me-auto navbar-start">
 						<Nav.Link as={Link} to="/" className="navbar-item">
 							Home
 						</Nav.Link>
-						<Nav.Link as={Link} to="/about-me" className="navbar-item">
+						<Nav.Link as={Link} to="/about" className="navbar-item">
 							About Me
 						</Nav.Link>
 						<Nav.Link as={Link} to="/contact" className="navbar-item">
