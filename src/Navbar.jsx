@@ -11,9 +11,6 @@ function Navigationbar() {
 		<Navbar expand="lg" className="navbar">
 			<Container>
 				<Navbar.Brand className="navbar-brand">
-					<a className="navbar-item" href="https://github.com/Will-Emery">
-						<img src="/assets/Github-Logo.png" alt="My GitHub" />
-					</a>
 					<a
 						className="navbar-item"
 						href="https://www.linkedin.com/in/william-emery/"
