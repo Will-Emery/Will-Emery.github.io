@@ -2,12 +2,12 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./templates/Home";
 import About from "./templates/About";
 import Contact from "./templates/Contact";
-import Navbar from "./Navbar";
+import Navigationbar from "./Navbar";
 
 function App() {
 	return (
 		<>
-			<Navbar />
+			<Navigationbar />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />

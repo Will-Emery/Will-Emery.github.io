@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+.navbar {
+	background-color: #333; /* Dark background color */
+}
+
+.navbar .navbar-brand .navbar-item img {
+	max-height: 35px; /* Set maximum height for images */
+}
+
+.navbar .navbar-brand {
+	display: flex;
+	align-items: center; /* Align items vertically */
+}
+
+.navbar .navbar-brand .title {
+	color: white; /* White color for title */
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.navbar .navbar-burger {
+	color: white; /* White color for burger menu */
+}
+
+.navbar .navbar-item {
+	color: white; /* White color for links */
+}
+
+.navbar .navbar-brand .navbar-item {
+	display: inline-block;
+	margin-right: 1rem; /* Add some spacing between items */
+}
+
+.navbar .navbar-item:hover {
+	background-color: #444; /* Darker background on hover */
+}
+
+.navbar .navbar-menu {
+	display: flex;
+	align-items: center; /* Center items vertically */
+}
+
+.navbar .navbar-item {
+	color: white; /* White color for links */
+}

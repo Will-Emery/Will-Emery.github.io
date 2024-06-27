@@ -5,11 +5,11 @@ export default function Contact() {
 				<center>
 					<p>Contact Me.</p>
 					<a
-						href="https://github.com/swarajgosavi"
+						href="https://github.com/will-emery"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Swaraj Gosavi (GitHub) [@swarajgosavi]
+						William Emery (GitHub) [@will-emery]
 					</a>
 				</center>
 			</h1>
