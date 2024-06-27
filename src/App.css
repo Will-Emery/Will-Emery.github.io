@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+/* Home.css */
+
+.container {
+	width: 100%;
+	max-width: 1200px; /* Set a max width to keep the content contained */
+	margin: 0 auto; /* Center the container */
+	padding: 0 2rem; /* Add some padding on the sides */
+	box-sizing: border-box; /* Include padding in the width calculation */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section {
+	padding: 2rem 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box {
+	padding: 1.5rem;
+	border-radius: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.has-background-blue {
+	background-color: #209cee;
 }
 
-.App-link {
-  color: #61dafb;
+.has-background-grey-lighter {
+	background-color: #e5dddd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.has-background-grey-darker {
+	background-color: #999;
+}
+
+.has-text-black-bis {
+	color: #1a1a1a;
+}
+
+.title {
+	color: white;
+}
+
+.subtitle {
+	color: #333;
+}
+
+.columns {
+	display: flex;
+	flex-wrap: wrap; /* Ensure columns wrap on smaller screens */
+	gap: 1rem; /* Add space between columns */
+}
+
+.column {
+	flex: 1;
+	min-width: 250px; /* Ensure a minimum width for each column */
+	padding: 0 1rem;
+	box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.button {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	background-color: #eee;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #ddd;
+}
+
+.box img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 6px;
 }
