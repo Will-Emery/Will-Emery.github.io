@@ -224,7 +224,10 @@ export default function Projects() {
 
 					{/* <!-- Competitive Pokemon Chatbots --> */}
 					<div className="box has-background-blue">
-						<a className="title" href="https://github.com/Will-Emery">
+						<a
+							className="title"
+							href="https://github.com/Will-Emery/Bot-With-the-World-Champ-Difference"
+						>
 							Competitive Pokemon Chatbots
 						</a>
 						<br></br>
