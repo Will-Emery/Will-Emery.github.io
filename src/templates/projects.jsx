@@ -228,7 +228,7 @@ export default function Projects() {
 							className="title"
 							href="https://github.com/Will-Emery/Bot-With-the-World-Champ-Difference"
 						>
-							Competitive Pokemon Chatbots
+							Competitive Pokemon Chatbots - Bot with the World Champ Difference
 						</a>
 						<br></br>
 						<br></br>
